@@ -1,0 +1,4 @@
+/Users/ruitong/CLionProjects/OOP/cmake-build-debug/CMakeFiles/app8-1.dir
+/Users/ruitong/CLionProjects/OOP/cmake-build-debug/CMakeFiles/app8-2.dir
+/Users/ruitong/CLionProjects/OOP/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/ruitong/CLionProjects/OOP/cmake-build-debug/CMakeFiles/rebuild_cache.dir

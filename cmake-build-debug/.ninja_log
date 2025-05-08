@@ -1,0 +1,26 @@
+# ninja log v6
+5	809	1746691499344751090	CMakeFiles/OOP.dir/homework/8-1/myString.cpp.o	e0f39f93e0cf7a2a
+0	1445	1746691340512156555	CMakeFiles/OOP.dir/main.cpp.o	51e014b88d061247
+3	699	1746691540627001536	CMakeFiles/OOP.dir/lesson/main.cpp.o	d8dfe2c5a001c5a
+5	809	1746691499345529838	CMakeFiles/OOP.dir/homework/8-1/app.cpp.o	e1ec09a20520dab8
+11	640	1746693588896900110	CMakeFiles/app8-1.dir/homework/8-1/Student.cpp.o	1a090fd1efeba856
+208	356	1746692706464970598	app8-2	b03c7aab5fe19d78
+1	651	1746692706258471194	CMakeFiles/app8-1.dir/homework/8-1/app8-1.cpp.o	aee2b45f35365392
+3	208	1746692706259955941	CMakeFiles/app8-2.dir/homework/8-2/app8-2.cpp.o	62c7fc4fb48f1d1
+640	776	1746693589526316964	app8-1	b8fdb8901f660f53
+11	639	1746693588896521236	CMakeFiles/app8-1.dir/homework/8-1/myString.cpp.o	b475f340eb489f04
+3	86	1746695435184122309	build.ninja	4c02e492f36b2340
+5	808	1746691499345322963	CMakeFiles/OOP.dir/homework/8-1/Student.cpp.o	6c5fd4e89ce004e5
+5	763	1746696135953992390	CMakeFiles/app8-2.dir/homework/8-2/app8-2.cpp.o	62c7fc4fb48f1d1
+6	764	1746696135954417509	CMakeFiles/app8-2.dir/homework/8-2/body/Person.cpp.o	946f176dab4cea64
+6	765	1746696135954619548	CMakeFiles/app8-2.dir/homework/8-2/body/Stduent.cpp.o	36034c89cdb4a6f9
+6	766	1746696135954797171	CMakeFiles/app8-2.dir/homework/8-2/body/GraduateStudent.cpp.o	a7a3598e2e98e173
+6	766	1746696135955134291	CMakeFiles/app8-2.dir/homework/8-2/body/Tdate.cpp.o	78ce6451aedbbc81
+6	767	1746696135955296747	CMakeFiles/app8-2.dir/homework/8-2/body/myString.cpp.o	48c69695455af635
+6	767	1746696135954966127	CMakeFiles/app8-2.dir/homework/8-2/body/Teacher.cpp.o	74fbba4bdbbc0b0d
+767	923	1746696136716221734	app8-2	9782995ddfd8e648
+13	737	1746696968681566938	CMakeFiles/app8-2.dir/homework/8-2/body/GraduateStudent.cpp.o	a7a3598e2e98e173
+12	738	1746696968680559660	CMakeFiles/app8-2.dir/homework/8-2/app8-2.cpp.o	62c7fc4fb48f1d1
+13	738	1746696968681346900	CMakeFiles/app8-2.dir/homework/8-2/body/Stduent.cpp.o	36034c89cdb4a6f9
+13	739	1746696968681749686	CMakeFiles/app8-2.dir/homework/8-2/body/Teacher.cpp.o	74fbba4bdbbc0b0d
+739	885	1746696969407852385	app8-2	9782995ddfd8e648
