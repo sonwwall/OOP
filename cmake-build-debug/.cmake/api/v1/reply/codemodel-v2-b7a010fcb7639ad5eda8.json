@@ -16,7 +16,9 @@
 					"targetIndexes" : 
 					[
 						0,
-						1
+						1,
+						2,
+						3
 					]
 				}
 			],
@@ -32,7 +34,9 @@
 					"targetIndexes" : 
 					[
 						0,
-						1
+						1,
+						2,
+						3
 					]
 				}
 			],
@@ -50,6 +54,20 @@
 					"id" : "app8-2::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-app8-2-Debug-234440f9f62f3a8f0bea.json",
 					"name" : "app8-2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "c11-1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-c11-1-Debug-13e0f8bae3aafb588ce6.json",
+					"name" : "c11-1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "c11-2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-c11-2-Debug-08efae439dc39ea78448.json",
+					"name" : "c11-2",
 					"projectIndex" : 0
 				}
 			]

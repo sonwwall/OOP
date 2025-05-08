@@ -26,3 +26,5 @@ add_executable(app8-2
         homework/8-2/header/Tdate.h
         homework/8-2/body/myString.cpp
 )
+add_executable(c11-1 lesson/class11/11-1/c11-1.cpp)
+add_executable(c11-2 lesson/class11/11-2/c11-2.cpp)

@@ -150,6 +150,68 @@ build app8-2: CXX_EXECUTABLE_LINKER__app8-2_Debug CMakeFiles/app8-2.dir/homework
   TARGET_FILE = app8-2
   TARGET_PDB = app8-2.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target c11-1
+
+
+#############################################
+# Order-only phony target for c11-1
+
+build cmake_object_order_depends_target_c11-1: phony || CMakeFiles/c11-1.dir
+
+build CMakeFiles/c11-1.dir/lesson/class11/11-1/c11-1.cpp.o: CXX_COMPILER__c11-1_unscanned_Debug /Users/ruitong/CLionProjects/OOP/lesson/class11/11-1/c11-1.cpp || cmake_object_order_depends_target_c11-1
+  DEP_FILE = CMakeFiles/c11-1.dir/lesson/class11/11-1/c11-1.cpp.o.d
+  FLAGS = -g -std=gnu++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/c11-1.dir
+  OBJECT_FILE_DIR = CMakeFiles/c11-1.dir/lesson/class11/11-1
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target c11-1
+
+
+#############################################
+# Link the executable c11-1
+
+build c11-1: CXX_EXECUTABLE_LINKER__c11-1_Debug CMakeFiles/c11-1.dir/lesson/class11/11-1/c11-1.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk
+  OBJECT_DIR = CMakeFiles/c11-1.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = c11-1
+  TARGET_PDB = c11-1.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target c11-2
+
+
+#############################################
+# Order-only phony target for c11-2
+
+build cmake_object_order_depends_target_c11-2: phony || CMakeFiles/c11-2.dir
+
+build CMakeFiles/c11-2.dir/lesson/class11/11-2/c11-2.cpp.o: CXX_COMPILER__c11-2_unscanned_Debug /Users/ruitong/CLionProjects/OOP/lesson/class11/11-2/c11-2.cpp || cmake_object_order_depends_target_c11-2
+  DEP_FILE = CMakeFiles/c11-2.dir/lesson/class11/11-2/c11-2.cpp.o.d
+  FLAGS = -g -std=gnu++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/c11-2.dir
+  OBJECT_FILE_DIR = CMakeFiles/c11-2.dir/lesson/class11/11-2
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target c11-2
+
+
+#############################################
+# Link the executable c11-2
+
+build c11-2: CXX_EXECUTABLE_LINKER__c11-2_Debug CMakeFiles/c11-2.dir/lesson/class11/11-2/c11-2.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk
+  OBJECT_DIR = CMakeFiles/c11-2.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = c11-2
+  TARGET_PDB = c11-2.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -184,7 +246,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/ruitong/CLionProjects/OOP/cmake-build-debug
 
-build all: phony app8-1 app8-2
+build all: phony app8-1 app8-2 c11-1 c11-2
 
 # =============================================================================
 # Built-in targets
