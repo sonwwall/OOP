@@ -45,18 +45,25 @@ unsigned Real::add(double n){
     return 0;
 }
 
-void fAdd(Number &op1,Number &op2){
-    op1.add(op2.digits);
+// 这里必须是指针或者引用，才能实现多态，如果传值就只会调用父类方法
+//void fAdd(Number &op1,Number &op2){
+//    op1.add(op2.digits);
+//}
+
+void fAdd(Number *op1,Number *op2){
+    op1->add(op2->digits);
 }
+
+
 
 int main(){
     cout<<"****实数的加法****"<<endl;
-    Real r1,r2;
+    Real *r1 = nullptr, *r2 = nullptr;
     fAdd(r1,r2);
-    r1.add(3.14);
-    cout<<"****整数的加法****"<<endl;
-    Int i1,i2;
-    fAdd(i1,i2);
-    i1.add(2,3);
+//    r1.add(3.14);
+//    cout<<"****整数的加法****"<<endl;
+//    Int i1,i2;
+//    fAdd(i1,i2);
+//    i1.add(2,3);
 
 }
