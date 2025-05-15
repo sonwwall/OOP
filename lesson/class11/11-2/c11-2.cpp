@@ -1,7 +1,3 @@
-//
-// Created by 瑞彤 on 2025/5/8.
-//
-
 #include <iostream>
 
 using namespace std;
@@ -18,11 +14,15 @@ unsigned Number::add(unsigned n){
 }
 
 class Real:public Number{
+public:
     virtual unsigned add(unsigned n);
+    unsigned add(double);
 };
 
 class Int:public Number{
+public:
     virtual unsigned add(unsigned n);
+    unsigned add(int,int);
 };
 
 unsigned Int::add(unsigned n){
@@ -30,8 +30,18 @@ unsigned Int::add(unsigned n){
     return 0;
 };
 
+unsigned Int::add(int n,int m){
+    cout<<"整数+整数（重载）"<<endl;
+    return 0;
+}
+
 unsigned Real::add(unsigned n){
     cout<<"实数+实数"<<endl;
+    return 0;
+}
+
+unsigned Real::add(double n){
+    cout<<"实数+实数（重载）"<<endl;
     return 0;
 }
 
@@ -43,7 +53,10 @@ int main(){
     cout<<"****实数的加法****"<<endl;
     Real r1,r2;
     fAdd(r1,r2);
+    r1.add(3.14);
     cout<<"****整数的加法****"<<endl;
     Int i1,i2;
     fAdd(i1,i2);
+    i1.add(2,3);
+
 }
