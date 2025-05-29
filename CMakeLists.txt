@@ -29,3 +29,7 @@ add_executable(app8-2
 add_executable(c11-1 lesson/class11/11-1/c11-1.cpp)
 add_executable(c11-2 lesson/class11/11-2/c11-2.cpp)
 add_executable(c12-1 lesson/class12/12-1/c12-1.cpp)
+add_executable(app10-2 homework/10/10-2/app10-2.cpp)
+add_executable(app10-3 homework/10/10-3/app10-3.cpp)
+add_executable(app11-1 homework/11/11-1/app11-1.cpp)
+add_executable(app11-2 homework/11/11-2/app11-2.cpp)

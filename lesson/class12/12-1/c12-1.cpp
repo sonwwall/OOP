@@ -9,12 +9,10 @@ using namespace std;
 class Shape{
 public:
     Shape(double x,double y):xCoord(x),yCoord(y){}
-    //Perimeter(double x,double y):xCoord(x),xCoord(y){}
     virtual double area()const=0;
     virtual double perimeter()const=0;
 protected:
     double xCoord,yCoord;
-    //double cx,cy;
 };
 
 class Circle:public Shape{
