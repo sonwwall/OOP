@@ -367,6 +367,99 @@ build app11-2: CXX_EXECUTABLE_LINKER__app11-2_Debug CMakeFiles/app11-2.dir/homew
   TARGET_FILE = app11-2
   TARGET_PDB = app11-2.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target c13-1
+
+
+#############################################
+# Order-only phony target for c13-1
+
+build cmake_object_order_depends_target_c13-1: phony || CMakeFiles/c13-1.dir
+
+build CMakeFiles/c13-1.dir/lesson/class13/13-1/c13-1.cpp.o: CXX_COMPILER__c13-1_unscanned_Debug /Users/ruitong/CLionProjects/OOP/lesson/class13/13-1/c13-1.cpp || cmake_object_order_depends_target_c13-1
+  DEP_FILE = CMakeFiles/c13-1.dir/lesson/class13/13-1/c13-1.cpp.o.d
+  FLAGS = -g -std=gnu++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/c13-1.dir
+  OBJECT_FILE_DIR = CMakeFiles/c13-1.dir/lesson/class13/13-1
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target c13-1
+
+
+#############################################
+# Link the executable c13-1
+
+build c13-1: CXX_EXECUTABLE_LINKER__c13-1_Debug CMakeFiles/c13-1.dir/lesson/class13/13-1/c13-1.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk
+  OBJECT_DIR = CMakeFiles/c13-1.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = c13-1
+  TARGET_PDB = c13-1.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target c14-1
+
+
+#############################################
+# Order-only phony target for c14-1
+
+build cmake_object_order_depends_target_c14-1: phony || CMakeFiles/c14-1.dir
+
+build CMakeFiles/c14-1.dir/lesson/class14/14-1/c14-1.cpp.o: CXX_COMPILER__c14-1_unscanned_Debug /Users/ruitong/CLionProjects/OOP/lesson/class14/14-1/c14-1.cpp || cmake_object_order_depends_target_c14-1
+  DEP_FILE = CMakeFiles/c14-1.dir/lesson/class14/14-1/c14-1.cpp.o.d
+  FLAGS = -g -std=gnu++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/c14-1.dir
+  OBJECT_FILE_DIR = CMakeFiles/c14-1.dir/lesson/class14/14-1
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target c14-1
+
+
+#############################################
+# Link the executable c14-1
+
+build c14-1: CXX_EXECUTABLE_LINKER__c14-1_Debug CMakeFiles/c14-1.dir/lesson/class14/14-1/c14-1.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk
+  OBJECT_DIR = CMakeFiles/c14-1.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = c14-1
+  TARGET_PDB = c14-1.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target c14-2
+
+
+#############################################
+# Order-only phony target for c14-2
+
+build cmake_object_order_depends_target_c14-2: phony || CMakeFiles/c14-2.dir
+
+build CMakeFiles/c14-2.dir/lesson/class14/14-2/c14-2.cpp.o: CXX_COMPILER__c14-2_unscanned_Debug /Users/ruitong/CLionProjects/OOP/lesson/class14/14-2/c14-2.cpp || cmake_object_order_depends_target_c14-2
+  DEP_FILE = CMakeFiles/c14-2.dir/lesson/class14/14-2/c14-2.cpp.o.d
+  FLAGS = -g -std=gnu++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/c14-2.dir
+  OBJECT_FILE_DIR = CMakeFiles/c14-2.dir/lesson/class14/14-2
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target c14-2
+
+
+#############################################
+# Link the executable c14-2
+
+build c14-2: CXX_EXECUTABLE_LINKER__c14-2_Debug CMakeFiles/c14-2.dir/lesson/class14/14-2/c14-2.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk
+  OBJECT_DIR = CMakeFiles/c14-2.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = c14-2
+  TARGET_PDB = c14-2.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -401,7 +494,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/ruitong/CLionProjects/OOP/cmake-build-debug
 
-build all: phony app8-1 app8-2 c11-1 c11-2 c12-1 app10-2 app10-3 app11-1 app11-2
+build all: phony app8-1 app8-2 c11-1 c11-2 c12-1 app10-2 app10-3 app11-1 app11-2 c13-1 c14-1 c14-2
 
 # =============================================================================
 # Built-in targets
